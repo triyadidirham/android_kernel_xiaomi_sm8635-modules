@@ -5,6 +5,7 @@
  */
 
 #include <linux/delay.h>
+
 #if IS_ENABLED(CONFIG_QCOM_WCD939X_I2C)
 #include <linux/soc/qcom/wcd939x-i2c.h>
 #elif IS_ENABLED(CONFIG_QCOM_DP_FSA4480_I2C)
